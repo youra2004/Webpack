@@ -1,11 +1,14 @@
-import "./style.css";
-import image from "./image.png";
+import './style.css'
+import image from './image.png'
 
-const App = () => (
-  <div>
-    <h1>React Typescript - {process.env.name}</h1>
-    <img src={image} />
-  </div>
-);
+const App = () => {
+  const test = "TEST"
+  return (
+    <div>
+      <h1>React Typescript - {process.env.name}</h1>
+      <img src={image} alt="img" />
+    </div>
+  )
+}
 
-export default App;
+export default App
